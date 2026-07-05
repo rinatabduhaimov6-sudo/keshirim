@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    background:pink;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100vh;
+}
+
+h1{
+    font-size:40px;
+}
+
+button{
+    width:120px;
+    height:60px;
+    font-size:25px;
+    margin:10px;
+}
+
+#yes{
+    background:green;
+    color:white;
+}
+
+#no{
+    background:red;
+    color:white;
+    position:absolute;
+    left:60px;
+    top:350px;
+}
